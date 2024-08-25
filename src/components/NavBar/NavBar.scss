@@ -1,0 +1,81 @@
+.navBar {
+    padding: 20px !important;
+    font-size: 18px !important;
+    background-color: rgb(41, 47, 51) !important;
+
+    .nav_brand {
+        font-size: 23px !important;
+        margin-left: 10px !important;
+        font-weight: 700 !important;
+
+        .logo {
+            width: 45px !important;
+        }
+    }
+
+    .close-btn {
+        cursor: pointer !important;
+        margin-inline-end: 6px !important;
+        color: #ffffff80 !important;
+    }
+
+    .nav_collapse {
+        .nav {
+            margin-left: 5px !important;
+
+            .link_container {
+
+                .nav_item {
+                    margin-left: 10px !important;
+                    transition: .3s ease !important;
+
+                    &:hover {
+                        transform: translateY(-3px) !important;
+                        text-decoration: underline !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .search_form {
+        display: flex !important;
+        align-items: center !important;
+
+        .form_input {
+            border-radius: 0 !important;
+            border-top-left-radius: 13px !important;
+            border-bottom-left-radius: 13px !important;
+            padding: 11px !important;
+            margin-left: 13px !important;
+            margin-right: -9px !important;
+            font-size: 18px !important;
+            background-color: #31383e !important;
+            color: #ffffff !important;
+            border: 0 !important;
+            outline: 0 !important;
+        }
+
+        .search_btn {
+            background-color: #005abb !important;
+            color: white;
+            font-weight: 700 !important;
+            border-radius: 0 !important;
+            border-top-right-radius: 13px !important;
+            border-bottom-right-radius: 13px !important;
+            padding: 8px 15px !important;
+            border-color: #323762b7 !important;
+            font-size: 18px !important;
+            margin-right: 10px !important;
+
+            &:hover {
+                background-color: rgb(9, 71, 137) !important;
+                transition: .5s ease !important;
+            }
+
+            &:disabled {
+                background-color: #005abb !important;
+            }
+        }
+    }
+}
